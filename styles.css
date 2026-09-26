@@ -101,6 +101,6 @@ footer{border-top:1px solid var(--line);margin-top:80px;padding:34px clamp(20px,
 .sh:hover{border-color:var(--cyan);color:var(--cyan);background:rgba(69,230,212,.05)}
 .sh[hidden]{display:none}
 .pager+.share,.share+.backhome{margin-top:40px}
-.prose p strong{font-family:'Jost',sans-serif;font-weight:500;letter-spacing:.01em;color:var(--bright)}
 .share .lic-note{font-size:14px;margin:22px 0 0}
 footer .lic a{color:var(--dim)} footer .lic a:hover{color:var(--cyan)}
+footer .legal a{color:var(--dim)} footer .legal a:hover{color:var(--cyan)}
