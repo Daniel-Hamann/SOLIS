@@ -25,6 +25,11 @@
 - [PDF, Classic Edition (English)](https://xfuturex.netlify.app/downloads/SOLIS_EN_Classic.pdf)
 - [PDF, Future Edition (English)](https://xfuturex.netlify.app/downloads/SOLIS_EN_Future.pdf)
 
+## Spanish (Español)
+
+- [SOLIS — El camino hacia el futuro](https://xfuturex.netlify.app/es/): complete Spanish translation, 14 chapters
+- [EPUB (Español)](https://xfuturex.netlify.app/downloads/SOLIS_ES.epub)
+
 ## Licence
 
 - CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/): free to copy, share, translate, and adapt with credit to “SOLIS — The Path to the Future” and a link; adaptations under the same licence.
