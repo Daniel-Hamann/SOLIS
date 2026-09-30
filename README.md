@@ -33,9 +33,10 @@ SOLIS is meant to travel beyond German, English, and Spanish. To translate it:
    `description` in each file. Keep the HTML structure as it is.
 3. Open a pull request. Partial translations are welcome too — say which chapters are done.
 
-The Spanish version was translated from the German original with the help of AI and has
-not yet been reviewed by native speakers. Corrections are very welcome: open an issue or a
-pull request against `es/`.
+The English and Spanish versions were translated from the German original with the help of AI.
+The Spanish one has not yet been reviewed by native speakers. Corrections are very welcome:
+open an issue or a pull request. The German original was revised in September 2026 with the
+help of AI, and the author checked every word.
 
 Questions, criticism, and objections are just as welcome as translations: open an issue.
 
