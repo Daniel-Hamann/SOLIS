@@ -7,6 +7,7 @@ that includes the right to reject the order itself.
 - Read online (English): https://xfuturex.netlify.app/en/
 - Original (German): https://xfuturex.netlify.app/
 - Español: https://xfuturex.netlify.app/es/
+- Português: https://xfuturex.netlify.app/pt/
 - Downloads: EPUB and PDF in [`downloads/`](downloads/)
 
 ## The five foundations
@@ -26,15 +27,15 @@ https://xfuturex.netlify.app/ and share your adaptations under the same licence.
 
 ## Translations welcome
 
-SOLIS is meant to travel beyond German, English, and Spanish. To translate it:
+SOLIS is meant to travel beyond German, English, Spanish, and Portuguese. To translate it:
 
-1. Copy the folder `en/` to a folder named after your language code, e.g. `fr/`, `pt/`.
+1. Copy the folder `en/` to a folder named after your language code, e.g. `fr/`, `it/`.
 2. Translate the text inside `<article class="prose">`, the `<title>`, and the
    `description` in each file. Keep the HTML structure as it is.
 3. Open a pull request. Partial translations are welcome too — say which chapters are done.
 
-The English and Spanish versions were translated from the German original with the help of AI.
-The Spanish one has not yet been reviewed by native speakers. Corrections are very welcome:
+The English, Spanish, and Portuguese versions were translated from the German original with the help
+of AI. The Spanish and Portuguese ones have not yet been reviewed by native speakers. Corrections are very welcome:
 open an issue or a pull request. The German original was revised in September 2026 with the
 help of AI, and the author checked every word.
 
@@ -43,4 +44,4 @@ Questions, criticism, and objections are just as welcome as translations: open a
 ## Structure
 
 Plain static HTML, no build step. `index.html` and `kapitel-NN.html` are German,
-`en/` is English, `es/` is Spanish, `fonts/` holds self-hosted fonts, `downloads/` the e-books and PDFs.
+`en/` is English, `es/` is Spanish, `pt/` is Portuguese, `fonts/` holds self-hosted fonts, `downloads/` the e-books and PDFs.

@@ -30,6 +30,11 @@
 - [SOLIS — El camino hacia el futuro](https://xfuturex.netlify.app/es/): complete Spanish translation, 14 chapters
 - [EPUB (Español)](https://xfuturex.netlify.app/downloads/SOLIS_ES.epub)
 
+## Portuguese (Português)
+
+- [SOLIS — O caminho para o futuro](https://xfuturex.netlify.app/pt/): complete Portuguese translation, 14 chapters
+- [EPUB (Português)](https://xfuturex.netlify.app/downloads/SOLIS_PT.epub)
+
 ## Licence
 
 - CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/): free to copy, share, translate, and adapt with credit to “SOLIS — The Path to the Future” and a link; adaptations under the same licence.
