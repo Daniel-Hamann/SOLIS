@@ -326,3 +326,93 @@
   src: url(fonts/jetbrains-mono-normal-cyrillic-e17cfd15.woff2) format('woff2');
   unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
+/* arabic (noto-naskh-arabic als Spectral 400 italic) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-naskh-arabic-arabic-36878eeb.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FD3E-FD3F;
+}
+/* arabic (noto-naskh-arabic als Spectral 300 normal) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/noto-naskh-arabic-arabic-36878eeb.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FD3E-FD3F;
+}
+/* arabic (noto-naskh-arabic als Spectral 400 normal) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-naskh-arabic-arabic-36878eeb.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FD3E-FD3F;
+}
+/* arabic (noto-naskh-arabic als Spectral 500 normal) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/noto-naskh-arabic-arabic-36878eeb.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FD3E-FD3F;
+}
+/* arabic (noto-kufi-arabic als Jost 300 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/noto-kufi-arabic-arabic-b0146640.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FD3E-FD3F;
+}
+/* arabic (noto-kufi-arabic als Jost 400 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-kufi-arabic-arabic-b0146640.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FD3E-FD3F;
+}
+/* arabic (noto-kufi-arabic als Jost 500 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/noto-kufi-arabic-arabic-b0146640.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FD3E-FD3F;
+}
+/* arabic (noto-kufi-arabic als Jost 600 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/noto-kufi-arabic-arabic-b0146640.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FD3E-FD3F;
+}
+/* arabic (noto-kufi-arabic als Space Mono 400 normal) */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-kufi-arabic-arabic-b0146640.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FD3E-FD3F;
+}
+/* arabic (noto-kufi-arabic als Space Mono 700 normal) */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/noto-kufi-arabic-arabic-b0146640.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FD3E-FD3F;
+}

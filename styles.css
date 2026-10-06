@@ -51,7 +51,7 @@ main{position:relative;z-index:10;max-width:760px;margin:0 auto;padding:0 clamp(
 .toc ol{list-style:none;margin:0;padding:0;counter-reset:c}
 .toc li{border-bottom:1px solid rgba(115,129,143,.14)}
 .toc a{display:flex;align-items:baseline;gap:18px;padding:15px 6px;color:var(--bright);transition:.15s}
-.toc a:hover{background:rgba(69,230,212,.05);padding-left:14px;color:var(--cyan)}
+.toc a:hover{background:rgba(69,230,212,.05);padding-inline-start:14px;color:var(--cyan)}
 .toc .num{font-family:'Space Mono',monospace;color:var(--violet);font-size:13px;min-width:30px}
 .toc .t{font-family:'Jost',sans-serif;font-weight:400;font-size:18px;letter-spacing:.01em}
 /* chapter */
@@ -65,15 +65,15 @@ main{position:relative;z-index:10;max-width:760px;margin:0 auto;padding:0 clamp(
 .prose p{margin:0 0 22px}
 .prose p:first-of-type{margin-top:14px}
 /* Szene mit Mara am Kapitelanfang (Kapitel 2 bis 13), abgesetzt wie in den PDFs */
-.prose p.scene{font-style:italic;color:#c6d3d1;border-left:2px solid var(--line);padding-left:20px;margin:14px 0 40px}
-:lang(zh) .prose p.scene{font-style:normal}
+.prose p.scene{font-style:italic;color:#c6d3d1;border-inline-start:2px solid var(--line);padding-inline-start:20px;margin:14px 0 40px}
+:lang(zh) .prose p.scene,:lang(ar) .prose p.scene{font-style:normal}
 /* nav */
 .pager{display:flex;justify-content:space-between;gap:16px;margin-top:80px;padding-top:26px;border-top:1px solid var(--line)}
 .pager a{flex:1;padding:18px 20px;border:1px solid var(--line);background:var(--panel);transition:.15s}
 .pager a:hover{border-color:var(--cyan);background:rgba(69,230,212,.05)}
 .pager .lbl{font-family:'Space Mono',monospace;font-size:10px;color:var(--dim);letter-spacing:.16em;text-transform:uppercase;display:block;margin-bottom:6px}
 .pager .tt{font-family:'Jost',sans-serif;color:var(--bright);font-size:15px}
-.pager .next{text-align:right}
+.pager .next{text-align:end}
 .pager .spacer{border:none;background:none;pointer-events:none}
 .backhome{display:inline-block;margin:34px 0 0;font-size:11px;color:var(--dim)}
 footer{border-top:1px solid var(--line);margin-top:80px;padding:34px clamp(20px,6vw,80px);
@@ -109,3 +109,17 @@ footer .lic a{color:var(--dim)} footer .lic a:hover{color:var(--cyan)}
 footer .legal a{color:var(--dim)} footer .legal a:hover{color:var(--cyan)}
 .hero .tr-note{max-width:600px;margin:22px auto 0;color:var(--dim);font-size:14px}
 .hero .tr-note a{color:var(--cyan)}
+
+/* Arabisch (dir="rtl"): Die verbundene Schrift verträgt keine Sperrung, sie risse die Buchstaben auseinander.
+   Die Ränder oben stehen als logische Eigenschaften und spiegeln sich selbst, hier nur, was davon nicht erfasst ist. */
+:lang(ar) :is(.mono,.brand small,.hero h1,.hero .sub,.pillar h2,.toc .t,.chead .cn,.chead h1,.prose h2,.prose h3,
+  .pager .lbl,.dl .t,.dl .s,.dl .btn){letter-spacing:0}
+[dir=rtl] #prog{left:auto;right:0;background:linear-gradient(270deg,var(--cyan),var(--violet))}
+/* Space Mono liefert auch das Leerzeichen, und das ist festbreit: zwischen arabischen Wörtern klafften Lücken.
+   Jost hat ein proportionales, die arabischen Zeichen kommen in beiden Fällen aus Noto Kufi (fonts.css). */
+:lang(ar) :is(.mono,.prose h3,.pager .lbl,.toc .num,.dl .s,.dl .btn){font-family:'Jost',sans-serif}
+/* Arabische Glyphen wirken bei gleicher Größe kleiner */
+:lang(ar) .prose{font-size:20px}
+:lang(ar) .prose h3{font-size:16px}
+:lang(ar) :is(.hero .kick,.chead .cn,.toc .h,.downloads .h,.share .h){font-size:14px}
+:lang(ar) :is(.brand small,.pager .lbl){font-size:12px}
