@@ -50,6 +50,16 @@
 - [SOLIS — Jalan menuju masa depan](https://xfuturex.netlify.app/id/): complete Indonesian translation, 14 chapters
 - [EPUB (Bahasa Indonesia)](https://xfuturex.netlify.app/downloads/SOLIS_ID.epub)
 
+## Russian (Русский)
+
+- [SOLIS — Путь в будущее](https://xfuturex.netlify.app/ru/): complete Russian translation, 14 chapters
+- [EPUB (Русский)](https://xfuturex.netlify.app/downloads/SOLIS_RU.epub)
+
+## Chinese (中文)
+
+- [SOLIS — 通往未来之路](https://xfuturex.netlify.app/zh/): complete Chinese translation, 14 chapters
+- [EPUB (中文)](https://xfuturex.netlify.app/downloads/SOLIS_ZH.epub)
+
 ## Licence
 
 - CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/): free to copy, share, translate, and adapt with credit to “SOLIS — The Path to the Future” and a link; adaptations under the same licence.

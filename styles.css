@@ -66,6 +66,7 @@ main{position:relative;z-index:10;max-width:760px;margin:0 auto;padding:0 clamp(
 .prose p:first-of-type{margin-top:14px}
 /* Szene mit Mara am Kapitelanfang (Kapitel 2 bis 13), abgesetzt wie in den PDFs */
 .prose p.scene{font-style:italic;color:#c6d3d1;border-left:2px solid var(--line);padding-left:20px;margin:14px 0 40px}
+:lang(zh) .prose p.scene{font-style:normal}
 /* nav */
 .pager{display:flex;justify-content:space-between;gap:16px;margin-top:80px;padding-top:26px;border-top:1px solid var(--line)}
 .pager a{flex:1;padding:18px 20px;border:1px solid var(--line);background:var(--panel);transition:.15s}
