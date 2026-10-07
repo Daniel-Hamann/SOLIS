@@ -21,49 +21,49 @@
 
 ## Full text
 
-- [EPUB (English)](https://xfuturex.netlify.app/downloads/SOLIS_EN.epub)
-- [PDF, Classic Edition (English)](https://xfuturex.netlify.app/downloads/SOLIS_EN_Classic.pdf)
-- [PDF, Future Edition (English)](https://xfuturex.netlify.app/downloads/SOLIS_EN_Future.pdf)
+- [EPUB (English)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_EN.epub)
+- [PDF, Classic Edition (English)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_EN_Classic.pdf)
+- [PDF, Future Edition (English)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_EN_Future.pdf)
 
 ## Spanish (Español)
 
 - [SOLIS — El camino hacia el futuro](https://xfuturex.netlify.app/es/): complete Spanish translation, 14 chapters
-- [EPUB (Español)](https://xfuturex.netlify.app/downloads/SOLIS_ES.epub)
+- [EPUB (Español)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_ES.epub)
 
 ## Portuguese (Português)
 
 - [SOLIS — O caminho para o futuro](https://xfuturex.netlify.app/pt/): complete Portuguese translation, 14 chapters
-- [EPUB (Português)](https://xfuturex.netlify.app/downloads/SOLIS_PT.epub)
+- [EPUB (Português)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_PT.epub)
 
 ## French (Français)
 
 - [SOLIS — Le chemin vers l’avenir](https://xfuturex.netlify.app/fr/): complete French translation, 14 chapters
-- [EPUB (Français)](https://xfuturex.netlify.app/downloads/SOLIS_FR.epub)
+- [EPUB (Français)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_FR.epub)
 
 ## Italian (Italiano)
 
 - [SOLIS — La via verso il futuro](https://xfuturex.netlify.app/it/): complete Italian translation, 14 chapters
-- [EPUB (Italiano)](https://xfuturex.netlify.app/downloads/SOLIS_IT.epub)
+- [EPUB (Italiano)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_IT.epub)
 
 ## Indonesian (Bahasa Indonesia)
 
 - [SOLIS — Jalan menuju masa depan](https://xfuturex.netlify.app/id/): complete Indonesian translation, 14 chapters
-- [EPUB (Bahasa Indonesia)](https://xfuturex.netlify.app/downloads/SOLIS_ID.epub)
+- [EPUB (Bahasa Indonesia)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_ID.epub)
 
 ## Russian (Русский)
 
 - [SOLIS — Путь в будущее](https://xfuturex.netlify.app/ru/): complete Russian translation, 14 chapters
-- [EPUB (Русский)](https://xfuturex.netlify.app/downloads/SOLIS_RU.epub)
+- [EPUB (Русский)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_RU.epub)
 
 ## Chinese (中文)
 
 - [SOLIS — 通往未来之路](https://xfuturex.netlify.app/zh/): complete Chinese translation, 14 chapters
-- [EPUB (中文)](https://xfuturex.netlify.app/downloads/SOLIS_ZH.epub)
+- [EPUB (中文)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_ZH.epub)
 
 ## Arabic (العربية)
 
 - [SOLIS — الطريق إلى المستقبل](https://xfuturex.netlify.app/ar/): complete Arabic translation, 14 chapters
-- [EPUB (العربية)](https://xfuturex.netlify.app/downloads/SOLIS_AR.epub)
+- [EPUB (العربية)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_AR.epub)
 
 ## Licence
 
