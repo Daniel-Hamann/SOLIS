@@ -65,6 +65,21 @@
 - [SOLIS — الطريق إلى المستقبل](https://xfuturex.netlify.app/ar/): complete Arabic translation, 14 chapters
 - [EPUB (العربية)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_AR.epub)
 
+## Turkish (Türkçe)
+
+- [SOLIS — Geleceğe Giden Yol](https://xfuturex.netlify.app/tr/): complete Turkish translation, 14 chapters
+- [EPUB (Türkçe)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_TR.epub)
+
+## Japanese (日本語)
+
+- [SOLIS — 未来への道](https://xfuturex.netlify.app/ja/): complete Japanese translation, 14 chapters
+- [EPUB (日本語)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_JA.epub)
+
+## Hindi (हिन्दी)
+
+- [SOLIS — भविष्य का मार्ग](https://xfuturex.netlify.app/hi/): complete Hindi translation, 14 chapters
+- [EPUB (हिन्दी)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_HI.epub)
+
 ## Licence
 
 - CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/): free to copy, share, translate, and adapt with credit to “SOLIS — The Path to the Future” and a link; adaptations under the same licence.
