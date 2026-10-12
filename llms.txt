@@ -80,6 +80,21 @@
 - [SOLIS — भविष्य का मार्ग](https://xfuturex.netlify.app/hi/): complete Hindi translation, 14 chapters
 - [EPUB (हिन्दी)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_HI.epub)
 
+## Ukrainian (Українська)
+
+- [SOLIS — Шлях у майбутнє](https://xfuturex.netlify.app/uk/): complete Ukrainian translation, 14 chapters
+- [EPUB (Українська)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_UK.epub)
+
+## Polish (Polski)
+
+- [SOLIS — Droga w przyszłość](https://xfuturex.netlify.app/pl/): complete Polish translation, 14 chapters
+- [EPUB (Polski)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_PL.epub)
+
+## Korean (한국어)
+
+- [SOLIS — 미래로 가는 길](https://xfuturex.netlify.app/ko/): complete Korean translation, 14 chapters
+- [EPUB (한국어)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_KO.epub)
+
 ## Licence
 
 - CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/): free to copy, share, translate, and adapt with credit to “SOLIS — The Path to the Future” and a link; adaptations under the same licence.

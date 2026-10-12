@@ -21,7 +21,7 @@ a:hover{color:var(--violet)}
 /* progress */
 #prog{position:fixed;top:0;left:0;height:2px;width:0;background:linear-gradient(90deg,var(--cyan),var(--violet));z-index:60;transition:width .1s}
 /* header */
-header{position:relative;z-index:10;display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center;justify-content:space-between;
+header{position:relative;z-index:20;display:flex;flex-wrap:wrap;gap:14px 24px;align-items:center;justify-content:space-between;
   padding:26px clamp(20px,6vw,80px);border-bottom:1px solid var(--line)}
 .brand{display:flex;align-items:center;gap:14px}
 .brand .emblem{width:34px;height:34px;flex:none}
@@ -29,6 +29,25 @@ header{position:relative;z-index:10;display:flex;flex-wrap:wrap;gap:14px 24px;al
 .brand small{display:block;color:var(--dim);font-size:10px;letter-spacing:.22em}
 .lang{font-size:11px;color:var(--dim);line-height:1.9}
 .lang a{color:var(--cyan);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px} .lang .off{color:var(--dim);opacity:.5}
+/* Sprachwahl als Aufklappliste ohne Skript; die Liste hängt am Kopf, nicht am Knopf, damit sie auf dem Handy nie aus dem Bild ragt */
+details.lang{position:static}
+details.lang summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:6px 10px;border:1px solid var(--line);color:var(--cyan);font-size:11px;user-select:none}
+details.lang summary::-webkit-details-marker{display:none}
+details.lang summary::after{content:"";width:0;height:0;border-inline:4px solid transparent;border-top:5px solid currentColor;margin-inline-start:2px}
+details.lang[open] summary{border-color:var(--cyan)}
+details.lang[open] summary::after{border-top:none;border-bottom:5px solid currentColor}
+details.lang summary:focus-visible{outline:1px solid var(--violet);outline-offset:2px}
+details.lang ul{position:absolute;top:calc(100% - 12px);inset-inline-end:clamp(20px,6vw,80px);width:min(360px,calc(100% - 2*clamp(20px,6vw,80px)));
+  margin:0;padding:8px;list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2px;
+  background:var(--panel);border:1px solid var(--line);box-shadow:0 18px 40px rgba(0,0,0,.45);z-index:30}
+details.lang li a,details.lang li span{display:block;padding:7px 10px;font-family:'Jost',sans-serif;font-size:15px;line-height:1.3;
+  letter-spacing:0;text-transform:none;color:var(--bright);text-decoration:none;overflow-wrap:anywhere}
+details.lang li a:hover,details.lang li a:focus-visible{color:var(--cyan);background:rgba(69,230,212,.07)}
+details.lang li span[aria-current]{color:var(--cyan);border-inline-start:2px solid var(--cyan)}
+/* 中文 und 日本語 aus je 1 KB Teilschrift (webschriften.py sprachnamen), sonst Kästchen auf Rechnern ohne CJK-Schrift */
+details.lang [lang="zh-Hans"]{font-family:'Jost','SOLIS Sprachname SC',sans-serif}
+details.lang [lang="ja"]{font-family:'Jost','SOLIS Sprachname JP',sans-serif}
+details.lang [lang="ko"]{font-family:'Jost','SOLIS Sprachname KR',sans-serif}
 main{position:relative;z-index:10;max-width:760px;margin:0 auto;padding:0 clamp(20px,6vw,40px) 120px}
 /* hero */
 .hero{padding:clamp(60px,12vh,140px) 0 40px;text-align:center}
@@ -66,7 +85,7 @@ main{position:relative;z-index:10;max-width:760px;margin:0 auto;padding:0 clamp(
 .prose p:first-of-type{margin-top:14px}
 /* Szene mit Mara am Kapitelanfang (Kapitel 2 bis 13), abgesetzt wie in den PDFs */
 .prose p.scene{font-style:italic;color:#c6d3d1;border-inline-start:2px solid var(--line);padding-inline-start:20px;margin:14px 0 40px}
-:lang(zh) .prose p.scene,:lang(ja) .prose p.scene,:lang(ar) .prose p.scene,:lang(hi) .prose p.scene{font-style:normal}
+:lang(zh) .prose p.scene,:lang(ja) .prose p.scene,:lang(ko) .prose p.scene,:lang(ar) .prose p.scene,:lang(hi) .prose p.scene{font-style:normal}
 /* nav */
 .pager{display:flex;justify-content:space-between;gap:16px;margin-top:80px;padding-top:26px;border-top:1px solid var(--line)}
 .pager a{flex:1;padding:18px 20px;border:1px solid var(--line);background:var(--panel);transition:.15s}

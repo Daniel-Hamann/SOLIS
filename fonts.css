@@ -506,3 +506,30 @@
   src: url(fonts/noto-sans-devanagari-devanagari-052b5087.woff2) format('woff2');
   unicode-range: U+0900-097F, U+1CD0-1CF9, U+A8E0-A8FF;
 }
+/* sprachnamen (中文) */
+@font-face {
+  font-family: 'SOLIS Sprachname SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/sprachname-sc-ebcf0794.woff2) format('woff2');
+  unicode-range: U+4E2D, U+6587;
+}
+/* sprachnamen (日本語) */
+@font-face {
+  font-family: 'SOLIS Sprachname JP';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/sprachname-jp-6a512a67.woff2) format('woff2');
+  unicode-range: U+65E5, U+672C, U+8A9E;
+}
+/* sprachnamen (한국어) */
+@font-face {
+  font-family: 'SOLIS Sprachname KR';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/sprachname-kr-0751fed1.woff2) format('woff2');
+  unicode-range: U+D55C, U+AD6D, U+C5B4;
+}
