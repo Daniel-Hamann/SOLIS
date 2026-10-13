@@ -95,6 +95,21 @@
 - [SOLIS — 미래로 가는 길](https://xfuturex.netlify.app/ko/): complete Korean translation, 14 chapters
 - [EPUB (한국어)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_KO.epub)
 
+## Persian (فارسی)
+
+- [SOLIS — راهی به سوی آینده](https://xfuturex.netlify.app/fa/): complete Persian translation, 14 chapters
+- [EPUB (فارسی)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_FA.epub)
+
+## Vietnamese (Tiếng Việt)
+
+- [SOLIS — Con đường đến tương lai](https://xfuturex.netlify.app/vi/): complete Vietnamese translation, 14 chapters
+- [EPUB (Tiếng Việt)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_VI.epub)
+
+## Swahili (Kiswahili)
+
+- [SOLIS — Njia ya kuelekea mustakabali](https://xfuturex.netlify.app/sw/): complete Swahili translation, 14 chapters
+- [EPUB (Kiswahili)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_SW.epub)
+
 ## Licence
 
 - CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/): free to copy, share, translate, and adapt with credit to “SOLIS — The Path to the Future” and a link; adaptations under the same licence.
