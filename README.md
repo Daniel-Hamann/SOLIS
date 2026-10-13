@@ -14,6 +14,12 @@ that includes the right to reject the order itself.
 - Русский: https://xfuturex.netlify.app/ru/
 - 中文: https://xfuturex.netlify.app/zh/
 - العربية: https://xfuturex.netlify.app/ar/
+- Türkçe: https://xfuturex.netlify.app/tr/
+- 日本語: https://xfuturex.netlify.app/ja/
+- हिन्दी: https://xfuturex.netlify.app/hi/
+- Українська: https://xfuturex.netlify.app/uk/
+- Polski: https://xfuturex.netlify.app/pl/
+- 한국어: https://xfuturex.netlify.app/ko/
 - Downloads: EPUB and PDF in [`downloads/`](downloads/)
 
 ## The five foundations
@@ -33,15 +39,15 @@ https://xfuturex.netlify.app/ and share your adaptations under the same licence.
 
 ## Translations welcome
 
-SOLIS is meant to travel beyond German, English, Spanish, Portuguese, French, Italian, Indonesian, Russian, Chinese, and Arabic. To translate it:
+SOLIS is meant to travel beyond the sixteen languages it is available in so far. To translate it:
 
-1. Copy the folder `en/` to a folder named after your language code, e.g. `pl/`, `nl/`.
+1. Copy the folder `en/` to a folder named after your language code, e.g. `nl/`, `vi/`.
 2. Translate the text inside `<article class="prose">`, the `<title>`, and the
    `description` in each file. Keep the HTML structure as it is.
 3. Open a pull request. Partial translations are welcome too. Say which chapters are done.
 
-The English, Spanish, Portuguese, French, Italian, Indonesian, Russian, Chinese, and Arabic versions were translated from the German original with the help
-of AI. The Spanish, Portuguese, French, Italian, Indonesian, Russian, Chinese, and Arabic ones have not yet been reviewed by native speakers. Corrections are very welcome:
+All fifteen translations were made from the German original with the help
+of AI. None of them has yet been reviewed by native speakers. Corrections are very welcome:
 open an issue or a pull request. The German original was revised in September 2026 with the
 help of AI, and the author checked every word.
 
@@ -50,4 +56,4 @@ Questions, criticism, and objections are just as welcome as translations: open a
 ## Structure
 
 Plain static HTML, no build step. `index.html` and `kapitel-NN.html` are German,
-`en/` is English, `es/` is Spanish, `pt/` is Portuguese, `fr/` is French, `it/` is Italian, `id/` is Indonesian, `ru/` is Russian, `zh/` is Chinese (simplified), `ar/` is Arabic, `fonts/` holds self-hosted fonts, `downloads/` the e-books and PDFs.
+`en/` is English, `es/` is Spanish, `pt/` is Portuguese, `fr/` is French, `it/` is Italian, `id/` is Indonesian, `ru/` is Russian, `zh/` is Chinese (simplified), `ar/` is Arabic, `tr/` is Turkish, `ja/` is Japanese, `hi/` is Hindi, `uk/` is Ukrainian, `pl/` is Polish, `ko/` is Korean, `fonts/` holds self-hosted fonts, `downloads/` the e-books and PDFs.
