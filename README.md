@@ -51,7 +51,8 @@ SOLIS is meant to travel beyond the nineteen languages it is available in so far
 
 All eighteen translations were made from the German original with the help
 of AI. None of them has yet been reviewed by native speakers. Corrections are very welcome:
-open an issue or a pull request. The German original was revised in September 2026 with the
+open an issue or a pull request. Each language has its own review issue, all of them listed
+in [#19](https://github.com/Daniel-Hamann/SOLIS/issues/19). Reading a single chapter already helps. The German original was revised in September 2026 with the
 help of AI, and the author checked every word.
 
 Questions, criticism, and objections are just as welcome as translations: open an issue.
