@@ -568,6 +568,105 @@
   font-display: swap;
   src: url(fonts/league-spartan-vietnam-e2bbe8a5.woff2) format('woff2');
 }
+/* nastaliq (noto-nastaliq-urdu als SOLIS Nastaliq 400 700, nur :lang(ur)) */
+@font-face {
+  font-family: 'SOLIS Nastaliq';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(fonts/noto-nastaliq-urdu-nastaliq-e013ae58.woff2) format('woff2');
+  unicode-range: U+0600-06FF, U+0750-077F, U+FD3E-FD3F;
+}
+/* bengali (noto-serif-bengali als Spectral 400 italic) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-serif-bengali-bengali-0dedec5d.woff2) format('woff2');
+  unicode-range: U+0980-09FE;
+}
+/* bengali (noto-serif-bengali als Spectral 300 normal) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/noto-serif-bengali-bengali-0dedec5d.woff2) format('woff2');
+  unicode-range: U+0980-09FE;
+}
+/* bengali (noto-serif-bengali als Spectral 400 normal) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-serif-bengali-bengali-0dedec5d.woff2) format('woff2');
+  unicode-range: U+0980-09FE;
+}
+/* bengali (noto-serif-bengali als Spectral 500 normal) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/noto-serif-bengali-bengali-0dedec5d.woff2) format('woff2');
+  unicode-range: U+0980-09FE;
+}
+/* bengali (noto-sans-bengali als Jost 300 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/noto-sans-bengali-bengali-5fb319b8.woff2) format('woff2');
+  unicode-range: U+0980-09FE;
+}
+/* bengali (noto-sans-bengali als Jost 400 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-sans-bengali-bengali-5fb319b8.woff2) format('woff2');
+  unicode-range: U+0980-09FE;
+}
+/* bengali (noto-sans-bengali als Jost 500 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/noto-sans-bengali-bengali-5fb319b8.woff2) format('woff2');
+  unicode-range: U+0980-09FE;
+}
+/* bengali (noto-sans-bengali als Jost 600 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/noto-sans-bengali-bengali-5fb319b8.woff2) format('woff2');
+  unicode-range: U+0980-09FE;
+}
+/* bengali (noto-sans-bengali als Space Mono 400 normal) */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-sans-bengali-bengali-5fb319b8.woff2) format('woff2');
+  unicode-range: U+0980-09FE;
+}
+/* bengali (noto-sans-bengali als Space Mono 700 normal) */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/noto-sans-bengali-bengali-5fb319b8.woff2) format('woff2');
+  unicode-range: U+0980-09FE;
+}
 /* sprachnamen (中文) */
 @font-face {
   font-family: 'SOLIS Sprachname SC';
@@ -603,4 +702,112 @@
   font-display: swap;
   src: url(fonts/sprachname-vi-744d1f45.woff2) format('woff2');
   unicode-range: U+0054, U+0069, U+1EBF, U+006E, U+0067, U+0020, U+0056, U+0069, U+1EC7, U+0074;
+}
+/* sprachnamen (हिन्दी) */
+@font-face {
+  font-family: 'SOLIS Sprachname HI';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/sprachname-hi-f0d79d6c.woff2) format('woff2');
+  unicode-range: U+0939, U+093F, U+0928, U+094D, U+0926, U+0940;
+}
+/* sprachnamen (বাংলা) */
+@font-face {
+  font-family: 'SOLIS Sprachname BN';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/sprachname-bn-2ab41b8f.woff2) format('woff2');
+  unicode-range: U+09AC, U+09BE, U+0982, U+09B2, U+09BE;
+}
+/* danda (noto-serif-devanagari als Spectral 400 italic) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-serif-devanagari-danda-3fd823af.woff2) format('woff2');
+  unicode-range: U+0964-0965;
+}
+/* danda (noto-serif-devanagari als Spectral 300 normal) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/noto-serif-devanagari-danda-3fd823af.woff2) format('woff2');
+  unicode-range: U+0964-0965;
+}
+/* danda (noto-serif-devanagari als Spectral 400 normal) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-serif-devanagari-danda-3fd823af.woff2) format('woff2');
+  unicode-range: U+0964-0965;
+}
+/* danda (noto-serif-devanagari als Spectral 500 normal) */
+@font-face {
+  font-family: 'Spectral';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/noto-serif-devanagari-danda-3fd823af.woff2) format('woff2');
+  unicode-range: U+0964-0965;
+}
+/* danda (noto-sans-devanagari als Jost 300 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(fonts/noto-sans-devanagari-danda-15887c56.woff2) format('woff2');
+  unicode-range: U+0964-0965;
+}
+/* danda (noto-sans-devanagari als Jost 400 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-sans-devanagari-danda-15887c56.woff2) format('woff2');
+  unicode-range: U+0964-0965;
+}
+/* danda (noto-sans-devanagari als Jost 500 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(fonts/noto-sans-devanagari-danda-15887c56.woff2) format('woff2');
+  unicode-range: U+0964-0965;
+}
+/* danda (noto-sans-devanagari als Jost 600 normal) */
+@font-face {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(fonts/noto-sans-devanagari-danda-15887c56.woff2) format('woff2');
+  unicode-range: U+0964-0965;
+}
+/* danda (noto-sans-devanagari als Space Mono 400 normal) */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/noto-sans-devanagari-danda-15887c56.woff2) format('woff2');
+  unicode-range: U+0964-0965;
+}
+/* danda (noto-sans-devanagari als Space Mono 700 normal) */
+@font-face {
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/noto-sans-devanagari-danda-15887c56.woff2) format('woff2');
+  unicode-range: U+0964-0965;
 }

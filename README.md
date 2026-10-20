@@ -23,6 +23,9 @@ that includes the right to reject the order itself.
 - فارسی: https://xfuturex.netlify.app/fa/
 - Tiếng Việt: https://xfuturex.netlify.app/vi/
 - Kiswahili: https://xfuturex.netlify.app/sw/
+- Filipino: https://xfuturex.netlify.app/tl/
+- বাংলা: https://xfuturex.netlify.app/bn/
+- اردو: https://xfuturex.netlify.app/ur/
 - Downloads: EPUB and PDF in [`downloads/`](downloads/)
 
 ## The five foundations
@@ -42,14 +45,14 @@ https://xfuturex.netlify.app/ and share your adaptations under the same licence.
 
 ## Translations welcome
 
-SOLIS is meant to travel beyond the nineteen languages it is available in so far. To translate it:
+SOLIS is meant to travel beyond the twenty-two languages it is available in so far. To translate it:
 
 1. Copy the folder `en/` to a folder named after your language code, e.g. `nl/`, `th/`.
 2. Translate the text inside `<article class="prose">`, the `<title>`, and the
    `description` in each file. Keep the HTML structure as it is.
 3. Open a pull request. Partial translations are welcome too. Say which chapters are done.
 
-All eighteen translations were made from the German original with the help
+All twenty-one translations were made from the German original with the help
 of AI. None of them has yet been reviewed by native speakers. Corrections are very welcome:
 open an issue or a pull request. Each language has its own review issue, all of them listed
 in [#19](https://github.com/Daniel-Hamann/SOLIS/issues/19). Reading a single chapter already helps. The German original was revised in September 2026 with the
@@ -60,4 +63,4 @@ Questions, criticism, and objections are just as welcome as translations: open a
 ## Structure
 
 Plain static HTML, no build step. `index.html` and `kapitel-NN.html` are German,
-`en/` is English, `es/` is Spanish, `pt/` is Portuguese, `fr/` is French, `it/` is Italian, `id/` is Indonesian, `ru/` is Russian, `zh/` is Chinese (simplified), `ar/` is Arabic, `tr/` is Turkish, `ja/` is Japanese, `hi/` is Hindi, `uk/` is Ukrainian, `pl/` is Polish, `ko/` is Korean, `fa/` is Persian, `vi/` is Vietnamese, `sw/` is Swahili, `fonts/` holds self-hosted fonts, `downloads/` the e-books and PDFs.
+`en/` is English, `es/` is Spanish, `pt/` is Portuguese, `fr/` is French, `it/` is Italian, `id/` is Indonesian, `ru/` is Russian, `zh/` is Chinese (simplified), `ar/` is Arabic, `tr/` is Turkish, `ja/` is Japanese, `hi/` is Hindi, `uk/` is Ukrainian, `pl/` is Polish, `ko/` is Korean, `fa/` is Persian, `vi/` is Vietnamese, `sw/` is Swahili, `tl/` is Filipino, `bn/` is Bengali, `ur/` is Urdu, `fonts/` holds self-hosted fonts, `downloads/` the e-books and PDFs.

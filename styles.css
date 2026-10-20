@@ -49,6 +49,8 @@ details.lang [lang="zh-Hans"]{font-family:'Jost','SOLIS Sprachname SC',sans-seri
 details.lang [lang="ja"]{font-family:'Jost','SOLIS Sprachname JP',sans-serif}
 details.lang [lang="ko"]{font-family:'Jost','SOLIS Sprachname KR',sans-serif}
 details.lang [lang="vi"]{font-family:'SOLIS Sprachname VI','Jost',sans-serif}
+details.lang [lang="hi"]{font-family:'SOLIS Sprachname HI','Jost',sans-serif}
+details.lang [lang="bn"]{font-family:'SOLIS Sprachname BN','Jost',sans-serif}
 main{position:relative;z-index:10;max-width:760px;margin:0 auto;padding:0 clamp(20px,6vw,40px) 120px}
 /* hero */
 .hero{padding:clamp(60px,12vh,140px) 0 40px;text-align:center}
@@ -86,7 +88,7 @@ main{position:relative;z-index:10;max-width:760px;margin:0 auto;padding:0 clamp(
 .prose p:first-of-type{margin-top:14px}
 /* Szene mit Mara am Kapitelanfang (Kapitel 2 bis 13), abgesetzt wie in den PDFs */
 .prose p.scene{font-style:italic;color:#c6d3d1;border-inline-start:2px solid var(--line);padding-inline-start:20px;margin:14px 0 40px}
-:lang(zh) .prose p.scene,:lang(ja) .prose p.scene,:lang(ko) .prose p.scene,:lang(ar) .prose p.scene,:lang(fa) .prose p.scene,:lang(hi) .prose p.scene{font-style:normal}
+:lang(zh) .prose p.scene,:lang(ja) .prose p.scene,:lang(ko) .prose p.scene,:lang(ar) .prose p.scene,:lang(fa) .prose p.scene,:lang(hi) .prose p.scene,:lang(bn) .prose p.scene,:lang(ur) .prose p.scene{font-style:normal}
 /* nav */
 .pager{display:flex;justify-content:space-between;gap:16px;margin-top:80px;padding-top:26px;border-top:1px solid var(--line)}
 .pager a{flex:1;padding:18px 20px;border:1px solid var(--line);background:var(--panel);transition:.15s}
@@ -132,20 +134,27 @@ footer .legal a{color:var(--dim)} footer .legal a:hover{color:var(--cyan)}
 
 /* Arabisch (dir="rtl"): Die verbundene Schrift verträgt keine Sperrung, sie risse die Buchstaben auseinander.
    Die Ränder oben stehen als logische Eigenschaften und spiegeln sich selbst, hier nur, was davon nicht erfasst ist. */
-:is(:lang(ar),:lang(fa)) :is(.mono,.brand small,.hero h1,.hero .sub,.pillar h2,.toc .t,.chead .cn,.chead h1,.prose h2,.prose h3,
+:is(:lang(ar),:lang(fa),:lang(ur)) :is(.mono,.brand small,.hero h1,.hero .sub,.pillar h2,.toc .t,.chead .cn,.chead h1,.prose h2,.prose h3,
   .pager .lbl,.dl .t,.dl .s,.dl .btn){letter-spacing:0}
-:lang(hi) :is(.mono,.brand small,.hero h1,.hero .sub,.pillar h2,.toc .t,.chead .cn,.chead h1,.prose h2,.prose h3,
+:is(:lang(hi),:lang(bn)) :is(.mono,.brand small,.hero h1,.hero .sub,.pillar h2,.toc .t,.chead .cn,.chead h1,.prose h2,.prose h3,
   .pager .lbl,.dl .t,.dl .s,.dl .btn){letter-spacing:0}
 [dir=rtl] #prog{left:auto;right:0;background:linear-gradient(270deg,var(--cyan),var(--violet))}
 /* Space Mono liefert auch das Leerzeichen, und das ist festbreit: zwischen arabischen Wörtern klafften Lücken.
    Jost hat ein proportionales, die arabischen Zeichen kommen in beiden Fällen aus Noto Kufi (fonts.css). */
-:is(:lang(ar),:lang(fa)) :is(.mono,.prose h3,.pager .lbl,.toc .num,.dl .s,.dl .btn){font-family:'Jost',sans-serif}
-:lang(hi) :is(.mono,.prose h3,.pager .lbl,.toc .num,.dl .s,.dl .btn){font-family:'Jost',sans-serif}
+:is(:lang(ar),:lang(fa),:lang(ur)) :is(.mono,.prose h3,.pager .lbl,.toc .num,.dl .s,.dl .btn){font-family:'Jost',sans-serif}
+:is(:lang(hi),:lang(bn)) :is(.mono,.prose h3,.pager .lbl,.toc .num,.dl .s,.dl .btn){font-family:'Jost',sans-serif}
 /* Arabische Glyphen wirken bei gleicher Größe kleiner (Persisch nutzt dieselben Schriften) */
-:is(:lang(ar),:lang(fa)) .prose{font-size:20px}
-:is(:lang(ar),:lang(fa)) .prose h3{font-size:16px}
-:is(:lang(ar),:lang(fa)) :is(.hero .kick,.chead .cn,.toc .h,.downloads .h,.share .h){font-size:14px}
-:is(:lang(ar),:lang(fa)) :is(.brand small,.pager .lbl){font-size:12px}
+:is(:lang(ar),:lang(fa),:lang(ur)) .prose{font-size:20px}
+:is(:lang(ar),:lang(fa),:lang(ur)) .prose h3{font-size:16px}
+:is(:lang(ar),:lang(fa),:lang(ur)) :is(.hero .kick,.chead .cn,.toc .h,.downloads .h,.share .h){font-size:14px}
+:is(:lang(ar),:lang(fa),:lang(ur)) :is(.brand small,.pager .lbl){font-size:12px}
+/* Urdu: Nastaliq (SOLIS Nastaliq, fonts.css, lädt nur hier) für Fließtext und Titel, die kleinen Beschriftungen
+   bleiben in Noto Kufi. Nastaliq steigt weit über und unter die Zeile, daher mehr Zeilenabstand. */
+body:lang(ur){font-family:'SOLIS Nastaliq','Spectral',Georgia,serif;line-height:2.15}
+:lang(ur) :is(.hero h1,.hero .sub,.pillar h2,.pillar h3,.toc .t,.chead h1,.prose h2,.pager .tt,.dl .t){font-family:'SOLIS Nastaliq','Jost',sans-serif}
+:lang(ur) :is(.hero h1,.chead h1){line-height:1.75}
+:lang(ur) :is(.prose h2,.pillar h2,.pillar h3,.toc .t,.pager .tt,.dl .t){line-height:1.9}
+:lang(ur) :is(.pillar p,.share p){line-height:2}
 /* Vietnamesisch: Jost fehlen die gestapelten Akzente (ạ, ế, Ơ, Ư), ein Mischsatz fiele in jedem Wort auf. League Spartan
    (Futura-Nachbau wie Jost, fonts.css) übernimmt hier alles, was sonst Jost setzt. Ausnahme der Markenschriftzug SOLIS. */
 :lang(vi) :is(.hero h1,.hero .sub,.pillar h2,.pillar h3,.toc .t,.chead h1,.prose h2,.pager .tt,.dl .t){font-family:'League Spartan',sans-serif}

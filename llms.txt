@@ -110,6 +110,21 @@
 - [SOLIS — Njia ya kuelekea mustakabali](https://xfuturex.netlify.app/sw/): complete Swahili translation, 14 chapters
 - [EPUB (Kiswahili)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_SW.epub)
 
+## Filipino (Filipino)
+
+- [SOLIS — Ang daan tungo sa hinaharap](https://xfuturex.netlify.app/tl/): complete Filipino translation, 14 chapters
+- [EPUB (Filipino)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_TL.epub)
+
+## Bengali (বাংলা)
+
+- [SOLIS — ভবিষ্যতের পথ](https://xfuturex.netlify.app/bn/): complete Bengali translation, 14 chapters
+- [EPUB (বাংলা)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_BN.epub)
+
+## Urdu (اردو)
+
+- [SOLIS — مستقبل کی راہ](https://xfuturex.netlify.app/ur/): complete Urdu translation, 14 chapters
+- [EPUB (اردو)](https://daniel-hamann.github.io/SOLIS/downloads/SOLIS_UR.epub)
+
 ## Licence
 
 - CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/): free to copy, share, translate, and adapt with credit to “SOLIS — The Path to the Future” and a link; adaptations under the same licence.
